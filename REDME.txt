@@ -1,0 +1,16 @@
+1. Including virtual-sever.conf into apache httpd.conf as following:
+
+# Various default settings
+Include "D:\MyDocuments\NSDI2013\simulation\virtual-server.conf"
+
+
+2. Modifying C:\Windows\System32\drivers\etc\host, add content of 'host' file in this folder into it.
+
+Then all participants are set up, including:
+Content Provider: www.content.com
+Advertising Network: advertising.com
+Privacy Protector: protector.com
+
+
+To test, navigate your browser to:
+http://www.content.com/content.html
