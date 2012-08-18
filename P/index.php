@@ -1,3 +1,0 @@
-<?php
-	echo 'Privacy Protector';
-?>
